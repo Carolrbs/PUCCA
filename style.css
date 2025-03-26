@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 20px;
 }
-<<<<<<< HEAD
 
 h1 {
     color: #fff;
@@ -24,9 +23,6 @@ h1 {
     height: 50vh; /* 50% da altura da tela */
     object-fit: cover; /* Ajusta a imagem sem distorcer */
 }
-
-=======
->>>>>>> 595b4e841fdf4aa74e7c3c15bde343bf03f16b65
 .character {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -36,23 +32,39 @@ h1 {
     display: flex;
     align-items: center;
 }
-<<<<<<< HEAD
 
-/* .character img {
-    border-radius: 50%;
-    margin-right: 20px;
-} */
-=======
-.character img {
-    border-radius: 50%;
-    margin-right: 20px;
-}
-.character h2 {
-    margin: 0 0 10px;
+#rodape{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1{
- color: #fff;
-
+.patreon-button {
+    background-color: #e53e3e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
 }
->>>>>>> 595b4e841fdf4aa74e7c3c15bde343bf03f16b65
+
+.patreon-button:hover {
+    background-color: #c53030;
+}
+
+.social-media-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-media-section a {
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+}
