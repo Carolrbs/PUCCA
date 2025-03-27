@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PUCCAFLIX</title>
+    <link rel = "shortcut icon" href="./imagem/logoPUCCA.png">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -14,12 +15,28 @@
             <img class="logo"src="imagem/logoPUCCA.png" alt="Logo Do Site">><a href="http://127.0.0.1:5501/"></a>
         </div>
        
-<div class="menu">
+<!-- <div class="menu">
     <button onclick="location.href='games.html'">Jogos</button>
     <button onclick="location.href='services.html'">Assistir</button>
     <button onclick="location.href='contact.html'">Histórias</button>
     <button onclick="location.href='quiz.html'">Quiz</button>
-</div>
+</div> -->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Explorar</a>
+            <ul class="dropdown">
+                <li><a href="games.html">Jogos</a></li>
+                <li><a href="services.html">Assistir</a></li>
+                <li><a href="contact.html">Histórias</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+</nav>
+
 </header>
 <img src="imagem/Puccafundo.png" alt="Uma cena com Garu corendo em meio ao bambuzal e logo atrás está a PUCCA."><br>
 
@@ -83,27 +100,29 @@
 
 <div class="character">
 <img src="imagem/mio.png" alt="Mio" width="100" height="100">
- <h2>Mio</h2>
+<div>
+<h2>Mio</h2>
     <p>O gato de estimação de Garu, que frequentemente acompanha seu dono em suas aventuras e lutas contra Tobe.</p>
+</div>
 </div>
 
 <div class="rodape">
-        <header>
-            <h1>Siga agente mas redes social</h1>
-        </header>
-
-        <section class="mygit">
-            <button class="patreon-button">me siga no Github</button>
-        </section>
-
-        <section class="social-media-section">
-            <a href="#"><img src="./imagem/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="./imagem/twitter.png" alt="X"></a>
-            <a href="#"><img src="./imagem/Instagram.png" alt="Instagram"></a>
-        </section>
 
         <footer>
-            <p>© PUCCALIX, 2025</p>
+
+            <h1>Siga a gente nas redes sociais</h1>
+
+            <!-- <section class="mygit"> -->
+                <a href="https://github.com/Carolrbs" class="patreon-button">Me siga no Github</a>
+            <!-- </section> -->
+            <section class="social-media-section">
+                <a href="#"><img src="./imagem/facebook.png" alt="Facebook" class="social-icon"></a>
+                <a href="#"><img src="./imagem/twitter.png" alt="X" class="social-icon"></a>
+                <a href="#"><img src="./imagem/Instagram.png" alt="Instagram" class="social-icon"></a>
+            </section><br>
+
+            <p>© Trabalho do curso Front-Eng - SENAC-
+                PUCCALIX, 2025</p>
         </footer>
     </div>
 </body>
